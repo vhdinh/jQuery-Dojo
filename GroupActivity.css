@@ -1,0 +1,87 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+	font-family: arial;
+}
+	#container {
+		width: 100%;
+		height: 100%;
+		background-color: black;
+		background-repeat: no-repeat;
+		background-size: 100% 100%;
+	}
+	.d1 {
+		background-image: url('ga-beach.jpg');
+	}
+	.d2 {
+		background-image: url('ga-calvinandhobbes.jpg');
+	}
+	.d3 {
+		background-image: url('ga-dojo.jpg');
+	}
+	.d4 {
+		background-image: url('ga-forest.jpg');
+	}
+	.d5 {
+		background-image: url('ga-matrix.jpg');
+	}
+	.d6 {
+		background-image: url('ga-snow.jpg');
+	}
+	
+	#container #top .main, #container #top .second {
+		opacity: .7;
+	}
+
+	#container #top .second {
+		display: none;
+	}
+
+	#container #top .main, #container #top .second {
+
+		position: absolute;
+		left: 40%;
+		top:40%;
+		width:275px;
+		background-color: gray;
+		padding: 10px;
+		border-radius: 10px;
+	}
+
+	#container #top .main h1, #container #top .second h1 {
+		color: red;
+		padding: 5px;
+	}
+
+	#container #top .main button, #container #top .second option {
+		width: 75px;
+		height: 25px;
+		margin: 5px;
+	}
+
+	#container #ninja1, #container #ninja2 {
+	display: inline-block;
+	vertical-align: bottom;
+	width: 48%;
+	clear: both;
+	}
+
+	#container .ninja1, #container .ninja2 {
+		width: 100px;
+		vertical-align: bottom;
+		margin-top: 50%;
+		position: absolute;
+	}
+
+
+	#container .ninja1, #container .ninja2, 
+	#container .ninja3, #container .ninja4 {
+		display: none;
+		margin-left: 10%;
+	}
+
+	#container .ninja2 {
+		display: none;
+		margin-right: 10%;
+	}

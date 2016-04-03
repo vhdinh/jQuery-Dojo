@@ -1,10 +1,5 @@
 $(document).ready(function(){
 
-	// $('.fade').click(function(){
-	// 	$('.main').fadeOut()
-	//  	$('.second').fadeIn();
-	// })
-
 	// hover over a button to change background
 
 	$('button').hover(function(){
@@ -20,8 +15,8 @@ $(document).ready(function(){
 		value = $(this).attr('value')
 		console.log(myid)
 		$('#container').addClass(myid + value)
-		$('.main').fadeOut()
-		$('.second').fadeIn()
+		$('.main').fadeOut('fast')
+		$('.second').fadeIn('fast')
 	})
 
 //original code
